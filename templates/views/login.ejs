@@ -1,0 +1,30 @@
+<% layout('.././layouts/main') %>
+
+<div class="row">
+  <div class="col-4">
+    <form action="/login" method="post">
+      <h1>Saytga kirish</h1>
+      <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <input
+          class="form-control"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="email"
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label for="password">Parol</label>
+        <input
+          class="form-control"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="parol"
+        />
+      </div>
+      <button class="btn btn-success">Kirish</button>
+    </form>
+  </div>
+</div>

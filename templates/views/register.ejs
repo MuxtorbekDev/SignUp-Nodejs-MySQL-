@@ -1,0 +1,40 @@
+<% layout('.././layouts/main') %>
+
+<div class="row">
+  <div class="col-4">
+    <form action="/register" method="post">
+      <h1>Ro'yxatdan o'tish</h1>
+      <div class="form-group mb-3">
+        <label for="full_name">F.I.SH</label>
+        <input
+          class="form-control"
+          type="text"
+          id="full_name"
+          name="full_name"
+          placeholder="F.I.SH"
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label for="email">Email</label>
+        <input
+          class="form-control"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="email"
+        />
+      </div>
+      <div class="form-group mb-3">
+        <label for="password">Parol</label>
+        <input
+          class="form-control"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="parol"
+        />
+      </div>
+      <button class="btn btn-primary">Ro'yxatdan o'ting</button>
+    </form>
+  </div>
+</div>
